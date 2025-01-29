@@ -1,3 +1,4 @@
+/* PART 1 */
 *{
     padding: 0;
     margin: 0;
@@ -5,22 +6,19 @@
 }
 
 body{
-    font-family: Roboto; 
+    font-family: system-ui;
 }
 
 .part-one{
     background-color: #1F2937;
-    padding: 20px 160px 80px;
+    padding: 20px 180px 100px;
     color: white;
-
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
 }
 
 .header-upper{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 p.logo{
@@ -49,7 +47,6 @@ h1.header-large-phrase{
 .header-lower{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .header-lower-left{
@@ -57,9 +54,15 @@ h1.header-large-phrase{
 }
 
 .placeholder{
-    padding: 100px 160px;
+    width: 500px;
+    height: 200px;
     color: whitesmoke;
     background-color: grey;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-button{
@@ -68,24 +71,15 @@ h1.header-large-phrase{
     color: white;
     padding: 8px 30px;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
+/* PART 1 */
 
 
 
-
-
-
-
-
-
-
+/* PART 2 */
 .part-two{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 40px 0px 80px;
+    padding: 40px 0px 100px;
 }
 
 h1.random-heading{
@@ -93,18 +87,19 @@ h1.random-heading{
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .container{
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    gap: 35px;
 }
 
 .picture{
     border: 5px solid #3882F6;
     border-radius: 10px;
-    width: 150px;
-    height: 180px;
+    height: 160px;
     margin-bottom: 5px;
 }
 
@@ -115,86 +110,73 @@ h1.random-heading{
 .description{
     text-align: center;
 }
+/* PART 2 */
 
 
 
-
-
-
-
-
-
-
-
-
+/* PART 3 */
+.part-three{
+    background-color: #E5E7EB;
+    padding: 80px 0px;
+}
 
 .quote{
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     color: #1F2937;
-    width: 750px;
+    width: 720px;
+    margin: 0px auto;
 }
+
 .author{
-    font-size: 20px;
-    margin-left: 550px;
+    font-size: 18px;
     font-weight: bold;
+    margin-left: 880px;
 }
-.part-three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: #E5E7EB;
-    padding: 60px 0;
-}
+/* PART 3 */
 
 
 
-
-
-
-
-
-
-
-
-
+/* PART 4 */
 .part-four{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 70px 0px;
+    padding: 80px 0px;
 }
 
 .message{
-    box-sizing: border-box;
-    width: 900px;
+    margin: 0px auto;
+    width: 750px;
     background-color: #3882F6;
-    padding: 30px 90px;
+    padding: 40px 60px;
     color: white;
 
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
 }
+
 .message-heading{
     font-weight: bold;
     font-size: 18px;
 }
+
 .message-text{
     font-size: 15px;
     color: #E5E7EB;
 }
+
 .message-button{
     background-color: #3882F6;
     color: white;
     padding: 5px 30px;
-    border: none;
     border-radius: 10px;
     border: 3px solid white;
 }
+/* PART 4 */
 
 
+
+
+/* PART 5 */
 .footer{
     background-color: #1F2937;
     padding: 30px 0px;
@@ -202,3 +184,4 @@ h1.random-heading{
     justify-content: center;
     color: #E5E7EB;
 }
+/* PART 5 */
